@@ -12,6 +12,10 @@ A repository for Go language recipes, including:
 All Go package dependencies must be specified in the DEPENDS
 for a recipe.
 
+Go package recipes in this layer have floating (AUTOREV) SRCREVs
+by default on the master branch; these are changed to fixed SRCREVs
+on release branches.
+
 Recipe naming convention:
 
  * All recipes begin with `golang-'
